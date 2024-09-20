@@ -1,0 +1,42 @@
+[debug] [2024-09-20T19:23:33.275Z] ----------------------------------------------------------------------
+[debug] [2024-09-20T19:23:33.280Z] Command:       /usr/local/bin/node /usr/local/bin/firebase init hosting
+[debug] [2024-09-20T19:23:33.280Z] CLI Version:   13.0.2
+[debug] [2024-09-20T19:23:33.280Z] Platform:      darwin
+[debug] [2024-09-20T19:23:33.280Z] Node Version:  v20.10.0
+[debug] [2024-09-20T19:23:33.280Z] Time:          Fri Sep 20 2024 15:23:33 GMT-0400 (Eastern Daylight Saving Time)
+[debug] [2024-09-20T19:23:33.280Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-09-20T19:23:33.282Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-09-20T19:23:33.282Z] > authorizing via signed-in user (johandgonzalezr@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /Users/johangonzalez/Desktop/desktop2/WebDev/DevTouch
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2024-09-20T19:23:34.504Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2024-09-20T19:23:35.003Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2024-09-20T19:23:35.004Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] i  Using project devtouch-d161c (devtouch) 
+[info] 
+=== Hosting Setup
+[debug] [2024-09-20T19:23:40.240Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/devtouch-d161c [none]
+[debug] [2024-09-20T19:23:40.725Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/devtouch-d161c 200
+[debug] [2024-09-20T19:23:40.726Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/devtouch-d161c {"projectId":"devtouch-d161c","projectNumber":"445574714165","displayName":"devtouch","name":"projects/devtouch-d161c","resources":{"hostingSite":"devtouch-d161c"},"state":"ACTIVE","etag":"1_3263c017-a516-4e46-aa04-41f206617156"}
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
