@@ -1,5 +1,6 @@
 require('dotenv').config()
 
+const functions = require('firebase-functions');
 const express = require("express");
 const bodyParser = require("body-parser");
 // const sendMail = require("./sendgrid");
@@ -23,7 +24,7 @@ app.use(express.json());
 
 
 app.get("/", function(req, res){
-  res.render("index");
+  res.render("functions/index");
   //res.sendFile(__dirname + "/index.html");
 });
 
@@ -132,3 +133,5 @@ app.listen(process.env.PORT || PORT, function(){
 // app.listen(3000, function(){
   console.log("Server running on port 3000")
 });
+
+exports.api = functions.https.onRequest(app);
